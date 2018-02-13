@@ -1,0 +1,260 @@
+body
+{
+	background: rgb(255,248,209); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,248,209,1) 0%, rgba(255,255,255,1) 98%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,248,209,1)), color-stop(98%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,248,209,1) 0%,rgba(255,255,255,1) 98%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,248,209,1) 0%,rgba(255,255,255,1) 98%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,248,209,1) 0%,rgba(255,255,255,1) 98%); /* IE10+ */
+background: linear-gradient(top, rgba(255,248,209,1) 0%,rgba(255,255,255,1) 98%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff8d1', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	background-image:url(../imgs/fondo.png);
+	background-repeat:no-repeat;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	font-family:Arial, Calibri, Sans-Serif;
+	font-size:13px;
+	overflow-x:hidden;
+}
+a
+{
+	color:inherit;
+	text-decoration:none;
+}
+#contenido
+{
+	width:800px;
+	max-width: 100%;
+	margin:0 auto;
+}
+#slider
+{
+	padding:5px;
+	text-align:center;
+}
+#contenidoTexto
+{
+	margin-top:2px;
+	margin-bottom:2px;
+	box-sizing:border-box;
+	height:260px;
+	overflow: hidden;
+}
+#titulos
+{
+	box-sizing:border-box;
+	overflow: hidden;
+	background-color:rgb(140,50,50);
+	height:22px;
+	border:1px, solid;
+	border-color:#98bf21;
+}
+.titCol
+{
+	display: inline-block;
+	padding:5px;
+	margin-left:10px;
+	text-align:center;
+	margin-top:-10px;
+}
+.columna
+{
+	float:left;
+	padding:5px;
+	margin-left:10px;
+	height:300px;
+}
+.columna ul li
+{
+	list-style-type:none;
+}
+.casExito
+{
+	height:50px;
+}
+.cirOpcs
+{
+	height:10px;
+	width:10px;
+	border-radius:10px;
+	background-color:#f28d9f;
+	display:inline-block;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+	margin-left:5px;
+}
+h1
+{
+	color:#8c3232;
+	font-size:14px;
+}
+.productos
+{
+	overflow: hidden;
+	height:30px;
+}
+.prTit
+{
+	width:70%; 
+	float:left; 
+	color:#f28d9f; 
+	font-size:18px;
+	font-weight:bolder;
+}
+.piePagina
+{
+	background: rgb(140,50,50); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(140,50,50,1) 1%, rgba(99,36,36,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(140,50,50,1)), color-stop(100%,rgba(99,36,36,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(140,50,50,1) 1%,rgba(99,36,36,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(140,50,50,1) 1%,rgba(99,36,36,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(140,50,50,1) 1%,rgba(99,36,36,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(140,50,50,1) 1%,rgba(99,36,36,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c3232', endColorstr='#632424',GradientType=0 ); /* IE6-9 */
+	padding:5px;
+	background-color:#8c3232;
+	position: fixed;
+	bottom:0px;
+	width:100%;
+	font-size:13px;
+	color:#FFF;
+	text-align:center;
+}
+.correo
+{
+	color:#000;
+	display: inline-table;
+	margin-left:30px;
+	background-color:#FFF;
+	border-radius:10px;
+	padding:2px;
+}
+.contacto
+{
+	display: inline-table;
+	margin-top:10px;
+	text-align:right;
+}
+.contacto img
+{
+	margin-left:20px;
+}
+#imagenSlider
+{
+	text-align:center;
+	margin:0 auto;
+}
+#imgSlider
+{
+	z-index:2;
+	width:900px;
+	height:200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#infoSlider
+{
+	margin:0 auto;
+	text-align:right;
+	background-color:rgba(0,0,0,0.3);
+	color:#FFF;
+	width:800px;
+	height:16px;
+	overflow: hidden;
+	transition: all .4s ease-in;
+	-moz-transition: all .4s ease-in;
+	-webkit-transition: all .4s ease-in;
+	-o-transition: all .4s ease-in;
+}
+#figuraSlider
+{
+	background-image:url(../imgs/img01.jpg);
+	background-size:100% 200%;
+	background-repeat:no-repeat;
+	overflow: hidden;
+	height:230px;
+	width:800px;
+	margin:0 auto;	
+}
+#infoSlider
+{
+	height:60px;
+}
+#infoSlider:hover
+{
+	height:60px;
+}
+.btnS
+{
+	padding:5px;
+	color:#8c3232;
+	width:100px;
+	height:16px;
+	float:right;
+	margin-right:20px;
+	cursor:pointer;
+}
+.btnS:hover
+{
+	color:#000;
+}
+#formulario
+{
+	background-color:#FFF;
+	height:0px;
+	overflow: hidden;
+}
+
+/* PRODUCTOS */
+
+#hgProductos img, #hgProductos h1
+{
+	display: inline-table;
+	margin-right:10px;
+}
+#productosT article
+{
+	text-align:left;
+}
+#opcProductos ul li
+{
+	cursor:pointer;
+}
+#opcProductos ul li:hover
+{
+	color:#8c3232;
+}
+
+/* SERVICIOS */
+
+#opcServ li:hover
+{
+	font-size:inherit;
+}
+.opcServ li:hover
+{
+	font-size:inherit;
+}
+#space
+{
+	height:50px;
+}
+
+/* PROGRAMADORES */
+#formPr .entradaPr
+{
+	display: block;
+	margin-bottom:10px;
+}
+#formPr .entradaPr label
+{
+	text-align:right;
+	width:800px;
+}
+
+/* EMPRESA */
+#empresaArt li:hover
+{
+	font-size:inherit;
+}
